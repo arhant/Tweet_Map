@@ -1,0 +1,33 @@
+<html>
+	<title>Tweets on Map</title>
+	<head>
+		<h1 align="center"></b>Welcome</b> </h1>
+		<h2 align="center"></b>Select a Keyword</b></h2>
+	</head>
+	<body style="background-color: #0084b4;">
+
+	<div style="height: 100px; margin-left:10px; margin-top:10%;padding: 0px; text-align:center;">
+        <form name="form" action="." method="post">{% csrf_token %}
+
+                <select style="width: 150px; height:25px; "name="key_word">
+                    <option value="movie"><b>Movie</b></option>
+                    <option value="trump"><b>Politics</b></option>
+                    <option value="style"><b>Fashion</b></option>
+                    <option value="travel"><b>Travel</b></option>
+                    <option value="haha"><b>Fun</b></option>
+                    <option value="tennis"><b>Sports</b></option>
+                    <option value="music"><b>Music</b></option>
+                    <option value="tech"><b>Technology</b></option>
+                    <option value="school"><b>Education</b></option>
+
+                </select>
+                <input  class="btn btn-info" type="submit" value="Submit" />
+				
+        </form>
+	</div>
+
+	<div id="wrapper" style="width:100%; text-align:center">
+		<img src="https://cdn.pixabay.com/photo/2015/10/26/12/43/twitter-1007075_1280.jpg" align ="middle" height="150" width="550">
+	</div>
+	</body>
+</html>
