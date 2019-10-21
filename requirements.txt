@@ -1,7 +1,7 @@
 aws-requests-auth==0.4.1
 certifi==2017.7.27.1
 chardet==3.0.4
-Django==1.11.6
+Django==1.11.23
 elasticsearch==5.4.0
 gmplot==1.1.1
 idna==2.6
